@@ -1,8 +1,11 @@
 # ppidump :desktop_computer:
 ## Deets
-A small mac command to find the Pixels Per Inch (ppi/Pixel Density) of every connected display. It calculates the data using physical resolution, so it shouldn't make any mistakes from retina-scaling. I threw it together in, like, an hour.
+A small mac command to find the Pixels Per Inch (ppi/Pixel Density) of every connected display. It calculates the data using physical resolution, so it shouldn't make any mistakes from retina-scaling.
+
+I threw it together in, like, an hour. It's written in Swift because why not.
+
 ## Building
-Just run `make`. That's it.
+Just run `make`. Boom, your done.
 ## Usage
 The command defaults to printing all display info, but you can manually input data using
 ```
